@@ -1,0 +1,12 @@
+[
+  {"title":"ASDA Baker's Selection Afternoon Cream Tea", "description":"Our wonderfully whipped cream delights - pick your perfect treat! Belgian chocolate profiteroles Jam and cream scones Jam and cream donuts","price":3.00,"image":"1.jpeg"},
+  {"title":"ASDA Baker's Selection 9 Mini Toffee Cupcakes", "description":"Toffee sponge with toffee sauce filling, topped with toffee frosting and edible decorations","price":2.00,"image":"2.jpeg"},
+  {"title":"ASDA Baker's Selection Strawberry Cream Scones", "description":"2 Fruited scones with strawberry compote and stabilised whipped cream","price":2.25,"image":"3.jpeg"},
+  {"title":"ASDA Extra Special Strawberry Conserve", "description":"Strawberry extra jam made using whole fruit","price":1.50,"image":"4.jpeg"},
+  {"title":"ASDA Extra Special Triple Layer Belgian Chocolate and Salted Caramel Cake", "description":"Dark chocolate sponge filled and topped with a layer of salted toffee and Belgian dark chocolate buttercream and decorated with toffee fudge pieces","price":6.00,"image":"5.jpeg"},
+  {"title":"Mr Kipling Cherry Bakewells", "description":"Light pastry cases filled with a layer of fruity plum and raspberry jam, moist almond sponge and soft icing. The legendary classic finished with half a cherry on the top.","price":1.45,"image":"6.jpeg"},
+  {"title":"ASDA Extra Special Hand Finished Carrot Cake", "description":"Carrot cake with sultanas, mixed spice, cassia, nutmeg, cream cheese frosting and nibbed walnuts","price":1.50,"image":"7.jpeg"},
+  {"title":"ASDA Extra Special Hand Finished Blueberry Cake", "description":"Blueberry sponge topped with cream cheese frosting and blueberry jam","price":1.50,"image":"8.jpeg"},
+  {"title":"ASDA Extra Special Triple Layer Vanilla Latte Cake", "description":"Coffee sponge layers filled and topped with coffee flavoured buttercream and vanilla bean flavoured buttercream, decorated with chocolate coffee beans and chocolate","price":6.00,"image":"9.jpeg"},
+  {"title":"ASDA 12 Indulgent Cupcakes", "description":"Our marvellous medley of sponges, oozing with gooey centres and delightfully decorated with sweet treats","price":5.00,"image":"10.jpeg"}
+]
