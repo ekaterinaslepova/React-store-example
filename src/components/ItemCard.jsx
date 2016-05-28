@@ -22,7 +22,12 @@ class ItemCard extends React.Component {
 
     render() {
         const item = this.item;
-
+        const options = [];
+        for (let i = 1; i <= item.qty; ++i) {
+            options.push(<option key={i}>{i}</option>)
+        } 
+        const disabled = item.qty == 0;
+        
         return <div>
             <figure>
                 <img src={"../img/" + item.image} />
@@ -30,12 +35,8 @@ class ItemCard extends React.Component {
             <h1>{item.title}</h1>
             <p>{item.description}</p>
             <p><b>Price:</b> {item.price}&pound;</p>
-            <select onChange={this.changeQty}>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-            </select>
-            <button onClick={this.addToBill}>Add to Bucket</button>
+            <select onChange={this.changeQty} disabled={disabled}>{options}</select>
+            <button onClick={this.addToBill} disabled={disabled}>Add to Bucket</button>
         </div>
     }
 }
