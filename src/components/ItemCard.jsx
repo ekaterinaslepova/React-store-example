@@ -28,7 +28,7 @@ class ItemCard extends React.Component {
         } 
         const disabled = item.qty == 0;
         
-        return <div>
+        return <div className="content_card_description">
             <figure>
                 <img src={"../img/" + item.image} />
             </figure>

@@ -2,10 +2,10 @@ import React from 'react'
 
 class ItemCardMin extends React.Component {
     render() {
-        return <div>
-            <figure className={this.props.image}>
+        return <div className="content_card">
+            <figure>
                 <img src={"img/" + this.props.image}/>
-                <capture>{this.props.title}</capture>
+                <figcaption>{this.props.title}</figcaption>
             </figure>
         </div>
     }

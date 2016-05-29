@@ -53,9 +53,11 @@ class App extends React.Component {
             }
         );
         
-        return <div>
-            {childrenWithProps}
+        return <div className="content">
+            <div className="content_logo"></div>
             <Bill items={this.state.bill} removeItem={this.removeItem} />
+            {childrenWithProps}
+            <div className="content_footer"></div>
         </div>
     }
 }

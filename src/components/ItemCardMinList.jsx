@@ -10,7 +10,7 @@ class ItemCardMinList extends React.Component {
             </Link>
         });
 
-        return <div>
+        return <div className="content_card_list">
             {items}
         </div>
     }

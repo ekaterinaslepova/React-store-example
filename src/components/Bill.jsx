@@ -17,14 +17,14 @@ class Bill extends React.Component {
                 <td>{item.price*item.qty}</td>
                 <td><button onClick={()=> {
                     this.props.removeItem(index)
-                }}>Remove</button></td>
+                }}>x</button></td>
             </tr>    
         });
         
-        return <div>
-            <table>
+        return <div className="content_bill">
+            <table className="content_bill_table">
                 <thead>
-                    <tr>
+                    <tr className="content_bill_header">
                         <th>Item</th>
                         <th>Price</th>
                         <th>Qty</th>
@@ -33,8 +33,8 @@ class Bill extends React.Component {
                 </thead>
                 <tbody>
                     {items}
-                    <tr>
-                        <td colspan="3">Total</td>
+                    <tr className="content_bill_total">
+                        <td colSpan="3">Total</td>
                         <td>{this.updateTotal()}</td>
                     </tr>
                 </tbody>
